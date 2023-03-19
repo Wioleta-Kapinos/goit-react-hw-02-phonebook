@@ -19,7 +19,7 @@ export class App extends Component{
       let contactExists = false;
       this.state.contacts.forEach(contact => {
         if (contact.name.toLowerCase() === name.toLowerCase()) {
-          alert(`${contact.name.toUpperCase()} is already in contacts.`)
+          alert(`${contact.name} is already in contacts.`)
           contactExists = true;
         }
       });
